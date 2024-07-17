@@ -1,0 +1,68 @@
+/*-------------------- CSS --------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(75,14,154,1);
+
+}
+h1 {
+    position: relative;
+    font-size: 6rem;
+    letter-spacing: 15px;
+    color: rgba(75,14,154,1);
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+
+    outline: none;
+    line-height: 4.1rem;
+
+    -webkit-box-reflect: below 0px linear-gradient(#00000000,#0000000c, #00000036, #000);
+    animation: anime 5s linear infinite;
+}
+
+@keyframes anime {
+    0%,
+    4.9%,
+    10%,
+    20%,
+    23%,
+    45%,
+    59%,
+    70%,
+    90%,
+    93%
+    {
+        color: #0e3742;
+        text-shadow: none;
+    }
+  
+    5%,
+    8%,
+    15%,
+    25%,
+    44%,
+    60%,
+    71%,
+    85%,
+    100%
+    {
+        color: #fff;
+        text-shadow: 
+            0 0 10px #03bcf4,
+            0 0 20px #03bcf4,
+            0 0 40px #03bcf4,
+            0 0 80px #03bcf4,
+            0 0 160px #03bcf4
+        ;
+    }
+}
