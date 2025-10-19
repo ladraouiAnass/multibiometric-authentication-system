@@ -126,6 +126,7 @@ The system uses pre-trained models for both face and voice recognition:
 4. Push to the branch
 5. Create a Pull Request
 
+
 ## 📄 License
 
 This project was developed for the MARTILE Smart Cities Hackathon.
